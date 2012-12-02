@@ -1,0 +1,319 @@
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.7276098026788
+# current error = 2.4626313153736
+# current error = 2.3961719940477
+# current error = 2.3627438862707
+# current error = 2.3418371757195
+# current error = 2.3272155202481
+# current error = 2.3162717087968
+# current error = 2.3077027581704
+# current error = 2.3007747540976
+# current error = 2.2950359436628
+# current error = 2.2901897234281
+# current error = 2.2860323415198
+# current error = 2.2824190552882
+# current error = 2.2792441417631
+# current error = 2.2764284183018
+# current error = 2.2739111798399
+# current error = 2.2716448695495
+# current error = 2.2695914880055
+# current error = 2.2677201291596
+# current error = 2.2660052599193
+# current error = 2.2644255136645
+# current error = 2.2629628772231
+# current error = 2.2616022383895
+# current error = 2.2603312994453
+# current error = 2.2591407439621
+# StochasticGradient: you have reached the maximum number of iterations
+4,80,0.01,-3,10,0.71666666666667
+# StochasticGradient: training
+# current error = 3.0587612856033
+# current error = 2.8204961026328
+# current error = 2.7751421243781
+# current error = 2.7524143834755
+# current error = 2.7373365088705
+# current error = 2.7263152194013
+# current error = 2.7178066472632
+# current error = 2.7110066715203
+# current error = 2.705437817215
+# current error = 2.7007897361441
+# current error = 2.6968494127087
+# current error = 2.6934652193675
+# current error = 2.6905260236311
+# current error = 2.6879483614922
+# current error = 2.68566829726
+# current error = 2.683636061994
+# current error = 2.6818123822793
+# current error = 2.6801658819147
+# current error = 2.6786712032972
+# current error = 2.6773076306169
+# current error = 2.6760580723473
+# current error = 2.6749083013184
+# current error = 2.6738463798468
+# current error = 2.6728622188184
+# current error = 2.6719472349178
+# StochasticGradient: you have reached the maximum number of iterations
+1,80,0.01,-3,10,0.93666666666667
+# StochasticGradient: training
+# current error = 2.3764679001816
+# current error = 2.0365960233645
+# current error = 1.9580004634497
+# current error = 1.9191121116327
+# current error = 1.894820119963
+# current error = 1.8775925992552
+# current error = 1.8644998836287
+# current error = 1.8543042250776
+# current error = 1.8460996331183
+# current error = 1.8393002702496
+# current error = 1.8335447097789
+# current error = 1.8285909741461
+# current error = 1.8242690229909
+# current error = 1.820455300422
+# current error = 1.8170575719951
+# current error = 1.8140054083768
+# current error = 1.8112439805015
+# current error = 1.8087298849777
+# current error = 1.8064282589865
+# current error = 1.8043107378247
+# current error = 1.8023539792582
+# current error = 1.8005385774014
+# current error = 1.7988482503942
+# current error = 1.797269223798
+# current error = 1.7957897559991
+# StochasticGradient: you have reached the maximum number of iterations
+16,80,0.01,-3,10,0.25666666666667
+# StochasticGradient: training
+# current error = 2.9022152862386
+# current error = 2.6544367904312
+# current error = 2.6042602669427
+# current error = 2.5770505371967
+# current error = 2.5588471513461
+# current error = 2.5453418794388
+# current error = 2.5347325300164
+# current error = 2.5263534475144
+# current error = 2.5196678804627
+# current error = 2.5141625757546
+# current error = 2.5095188613018
+# current error = 2.5055393047958
+# current error = 2.5020875948956
+# current error = 2.4990630747166
+# current error = 2.4963889207621
+# current error = 2.4940054944196
+# current error = 2.4918659417444
+# current error = 2.4899330349331
+# current error = 2.4881768529515
+# current error = 2.4865730728907
+# current error = 2.4851017084873
+# current error = 2.4837461730468
+# current error = 2.4824925768451
+# current error = 2.4813291946199
+# current error = 2.4802460573736
+# StochasticGradient: you have reached the maximum number of iterations
+2,80,0.01,-3,10,0.87866666666667
+# StochasticGradient: training
+# current error = 2.5121344233971
+# current error = 2.219856580016
+# current error = 2.147179238016
+# current error = 2.1098390927523
+# current error = 2.0861257680665
+# current error = 2.0693599841494
+# current error = 2.0567606865954
+# current error = 2.0468956026679
+# current error = 2.0389252978798
+# current error = 2.0323245687745
+# current error = 2.0267489034839
+# current error = 2.021962876575
+# current error = 2.0177998050737
+# current error = 2.0141380407061
+# current error = 2.0108864885432
+# current error = 2.0079754246752
+# current error = 2.0053504707948
+# current error = 2.002968517451
+# current error = 2.0007948929392
+# current error = 1.9988013519162
+# current error = 1.9969646149664
+# current error = 1.9952652862253
+# current error = 1.9936870298869
+# current error = 1.9922159181665
+# current error = 1.9908398802387
+# StochasticGradient: you have reached the maximum number of iterations
+8,80,0.01,-3,10,0.41866666666667
+# StochasticGradient: training
+# current error = 2.2440893250897
+# current error = 1.8931582713393
+# current error = 1.8159922141711
+# current error = 1.7787474889838
+# current error = 1.7559677336982
+# current error = 1.7402434487409
+# current error = 1.7285550420634
+# current error = 1.7194191868662
+# current error = 1.7120132166118
+# current error = 1.7058463726748
+# current error = 1.7006130828328
+# current error = 1.6961048498687
+# current error = 1.6921646069478
+# current error = 1.6886778203466
+# current error = 1.6855619362784
+# current error = 1.6827543486057
+# current error = 1.6802061511961
+# current error = 1.6778789716967
+# current error = 1.6757423896116
+# current error = 1.673771670254
+# current error = 1.6719463829279
+# current error = 1.6702494691716
+# current error = 1.6686665253893
+# current error = 1.6671852678051
+# current error = 1.6657951404916
+# StochasticGradient: you have reached the maximum number of iterations
+32,80,0.01,-3,10,0.124
+# StochasticGradient: training
+# current error = 2.1695807735362
+# current error = 1.8135428221719
+# current error = 1.7384749005748
+# current error = 1.7028526971073
+# current error = 1.6811742141574
+# current error = 1.6662361806604
+# current error = 1.6551420708861
+# current error = 1.6464713058012
+# current error = 1.639439466147
+# current error = 1.633576693219
+# current error = 1.6285819340641
+# current error = 1.6242565939224
+# current error = 1.6204653815261
+# current error = 1.6171066197704
+# current error = 1.6141011867963
+# current error = 1.6113883837263
+# current error = 1.608921527108
+# current error = 1.6066646423128
+# current error = 1.604590014655
+# current error = 1.602674675681
+# current error = 1.6008986681383
+# current error = 1.5992451723433
+# current error = 1.5977001613668
+# current error = 1.5962518576126
+# current error = 1.5948902667066
+# StochasticGradient: you have reached the maximum number of iterations
+64,80,0.01,-3,10,0.078666666666667
+# StochasticGradient: training
+# current error = 2.1429786896393
+# current error = 1.7638747482736
+# current error = 1.6877408696237
+# current error = 1.6518356223589
+# current error = 1.6301140643033
+# current error = 1.6152711441629
+# current error = 1.6043371220656
+# current error = 1.5958227507143
+# current error = 1.5889599743494
+# current error = 1.5832554940393
+# current error = 1.5784264059339
+# current error = 1.574250670296
+# current error = 1.5706157339618
+# current error = 1.5674091202408
+# current error = 1.5645551604137
+# current error = 1.5619907852044
+# current error = 1.559671574036
+# current error = 1.5575589143064
+# current error = 1.5556243847503
+# current error = 1.5538445527752
+# current error = 1.552200146877
+# current error = 1.5506734278291
+# current error = 1.5492496147428
+# current error = 1.5479153714234
+# current error = 1.5466581425264
+# StochasticGradient: you have reached the maximum number of iterations
+128,80,0.01,-3,10,0.066666666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.1652855010653
+# current error = 1.7412305918247
+# current error = 1.6598647838548
+# current error = 1.620639963435
+# current error = 1.5982383396343
+# current error = 1.582477651621
+# current error = 1.5716917701012
+# current error = 1.5627436145432
+# current error = 1.5560663693479
+# current error = 1.5502980705716
+# current error = 1.5457714502686
+# current error = 1.5416007771192
+# current error = 1.538309974551
+# current error = 1.5352205707619
+# current error = 1.5326719872306
+# current error = 1.5302762463361
+# current error = 1.5282220393454
+# current error = 1.5262948136601
+# current error = 1.5245934849571
+# current error = 1.5230025807839
+# current error = 1.5215668564455
+# current error = 1.520227360331
+# current error = 1.5189983852474
+# current error = 1.5178514986304
+# current error = 1.5167874223356
+# StochasticGradient: you have reached the maximum number of iterations
+256,80,0.01,-3,10,0.062666666666667
+# StochasticGradient: training
+# current error = 2.2330659018643
+# current error = 1.7353244092734
+# current error = 1.6406488514893
+# current error = 1.5953345429231
+# current error = 1.5718166852159
+# current error = 1.5562744466204
+# current error = 1.545623123697
+# current error = 1.5376170043017
+# current error = 1.5317518531016
+# current error = 1.526751308252
+# current error = 1.5228009225081
+# current error = 1.5193943881094
+# current error = 1.5166252668096
+# current error = 1.5140964134583
+# current error = 1.5120070023184
+# current error = 1.5100705312955
+# current error = 1.5084331564378
+# current error = 1.5069056806779
+# current error = 1.5055851963592
+# current error = 1.5043445917297
+# current error = 1.5032472660524
+# current error = 1.5022349780957
+# current error = 1.5013365832895
+# current error = 1.5005011417883
+# current error = 1.4997405464423
+# StochasticGradient: you have reached the maximum number of iterations
+512,80,0.01,-3,10,0.070666666666667
+# StochasticGradient: training
+# current error = 2.2666064807176
+# current error = 1.7395632182696
+# current error = 1.6358735762355
+# current error = 1.5882178038322
+# current error = 1.5638612931563
+# current error = 1.5488520769177
+# current error = 1.5384979997142
+# current error = 1.5309950841534
+# current error = 1.5252112259432
+# current error = 1.5206953075689
+# current error = 1.5169828264043
+# current error = 1.5139761492304
+# current error = 1.511408325422
+# current error = 1.5092398730511
+# current error = 1.5073449515013
+# current error = 1.5057128368649
+# current error = 1.5042625655647
+# current error = 1.5029803565459
+# current error = 1.501830697865
+# current error = 1.5007908862195
+# current error = 1.4998368687469
+# current error = 1.4989622261458
+# current error = 1.4981579073651
+# current error = 1.4974177773152
+# current error = 1.4967312524584
+# StochasticGradient: you have reached the maximum number of iterations
+617,80,0.01,-3,10,0.076

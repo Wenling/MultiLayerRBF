@@ -1,0 +1,94 @@
+#! /bin/bash
+
+if [[ -z $1 ]]
+then
+	trainsize=60
+else
+	trainsize=$1
+fi
+if [[ -z $2 ]]
+then
+	sleeptime=1
+else
+	sleeptime=$2
+fi
+NR_PROC=4
+
+function runLogReg {
+	rm ../result/logReg.csv ../result/logReg_modified.csv
+	for k in 1 2 4 8 16 32 64 128 256 512 617
+	do
+		echo "torch main.lua $trainsize 1 $k 80 0.01 -3 10 >> ../result/logReg.csv" &
+		torch main.lua $trainsize 1 $k 80 0.01 -3 10 >> ../result/logReg.csv &
+	done
+	sed '/Torch/d' ../result/logReg.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/logReg.csv
+}
+
+function runTwoLinReg {
+	rm ../result/TwoLinReg.csv ../result/TwoLinReg_modified.csv
+	for k in 1 2 4 8 16 32 64 128 256 512 617
+	do
+		for HU in 10 20 40 80 100
+		do
+			echo "torch main.lua $trainsize 2 $k $HU 0.01 -3 10 >> ../result/TwoLinReg.csv" &
+			torch main.lua $trainsize 2 $k $HU 0.01 -3 10 >> ../result/TwoLinReg.csv &
+			
+			while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
+			do
+				echo "sleeping"
+				sleep $sleeptime;
+			done
+		done
+	done
+	sed '/Torch/d' ../result/TwoLinReg.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/TwoLinReg_modified.csv
+}
+
+function runRBF {
+	rm ../result/RBF.csv ../result/RBF_modified.csv
+	for k in 1 2 4 8 16 32 64 128 256
+	do
+		for HU in 10 20 40 80 100
+		do
+			echo "torch main.lua $trainsize 3 $k $HU 0.1 -3 30 >> ../result/RBF.csv" &
+			torch main.lua $trainsize 3 $k $HU 0.1 -3 30 >> ../result/RBF.csv &
+			
+			while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
+			do
+				echo "sleeping"
+				sleep $sleeptime;
+			done
+		done
+	done
+	sed '/Torch/d' ../result/RBF.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/RBF_modified.csv
+}
+
+function runAntiRBF {
+	rm ../result/AntiRBF.csv ../result/AntiRBF_modified.csv
+	for k in 1 2 4 8 16 32 64 128 256 512 617
+	do
+		for HU in 10 20 40 80 100
+		do
+			for lr in 0.1 0.01 0.001 0.005 0.0005
+			do
+				echo "torch main.lua $trainsize 4 $k $HU $lr -3 30 >> ../result/AntiRBF.csv" &
+				#torch main.lua $trainsize 4 $k $HU $lr -3 30 >> ../result/AntiRBF.csv &
+			
+				while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
+				do
+					echo "sleeping"
+					sleep $sleeptime;
+				done
+			done
+		done
+	done
+	while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
+	do
+		echo "sleeping"
+		sleep $sleeptime;
+	done
+	sed '/Torch/d' ../result/AntiRBF.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/AntiRBF_modified.csv
+}
+
+#runTwoLinReg
+#runRBF
+runAntiRBF

@@ -1,0 +1,1530 @@
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.4565691587477
+# current error = 2.3335623083244
+# current error = 2.3283991302765
+# current error = 2.3257065713718
+# current error = 2.3237860912109
+# current error = 2.3223438367015
+# current error = 2.3214578531021
+# current error = 2.3209431736499
+# current error = 2.3205816324221
+# current error = 2.3202687629375
+# current error = 2.319937317753
+# current error = 2.3196218405131
+# current error = 2.3193231724282
+# current error = 2.3188477919505
+# current error = 2.3180180367619
+# current error = 2.3169712549682
+# current error = 2.3163452045555
+# current error = 2.3161282007783
+# current error = 2.3160001341045
+# current error = 2.3158596230988
+# current error = 2.3155796323018
+# current error = 2.3151911365312
+# current error = 2.31484601
+# current error = 2.3145434135917
+# current error = 2.3142194737637
+# current error = 2.3138394138545
+# current error = 2.3133652155063
+# current error = 2.3127733898305
+# current error = 2.3121920059675
+# current error = 2.3116674303428
+# StochasticGradient: you have reached the maximum number of iterations
+1,10,0.1,-3,30,0.83466666666667
+# StochasticGradient: training
+# current error = 2.4215936015864
+# current error = 2.334634641592
+# current error = 2.3311603549678
+# current error = 2.3279890231358
+# current error = 2.3249193074104
+# current error = 2.3244405833371
+# current error = 2.3222985717967
+# current error = 2.3227139116634
+# current error = 2.3227451068558
+# current error = 2.3202907748734
+# current error = 2.3192884419107
+# current error = 2.319524009624
+# current error = 2.3185699824529
+# current error = 2.3178020095241
+# current error = 2.3183776191915
+# current error = 2.3185534757194
+# current error = 2.3192992684908
+# current error = 2.317111504217
+# current error = 2.31876817852
+# current error = 2.319380530413
+# current error = 2.3194425540431
+# current error = 2.318295796392
+# current error = 2.3196464727671
+# current error = 2.3194490986792
+# current error = 2.3198432545355
+# current error = 2.3164425996463
+# current error = 2.3167832849484
+# current error = 2.317514648594
+# current error = 2.3142125920153
+# current error = 2.3146981273607
+# StochasticGradient: you have reached the maximum number of iterations
+1,20,0.1,-3,30,0.842
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.4494289512623
+# current error = 2.3772343598653
+# current error = 2.3695101719141
+# current error = 2.3519400262013
+# current error = 2.344734751274
+# current error = 2.3386917287786
+# current error = 2.3385419538016
+# current error = 2.3337960698095
+# current error = 2.3331373990564
+# current error = 2.3335268065542
+# current error = 2.3267038586468
+# current error = 2.3254808072807
+# current error = 2.3268121554932
+# current error = 2.3267393188306
+# current error = 2.3250191837797
+# current error = 2.3228588441709
+# current error = 2.3224716318593
+# current error = 2.3211867452707
+# current error = 2.3222137086419
+# current error = 2.3205648569193
+# current error = 2.3198758265209
+# current error = 2.3198588386093
+# current error = 2.3172732751512
+# current error = 2.3166465043156
+# current error = 2.3157090006845
+# current error = 2.3154017311002
+# current error = 2.3152098509895
+# current error = 2.3163689532753
+# current error = 2.3151524509432
+# current error = 2.3158143626749
+# StochasticGradient: you have reached the maximum number of iterations
+1,40,0.1,-3,30,0.83
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.2792306274334
+# current error = 1.9833810549535
+# current error = 1.9504941773144
+# current error = 1.9367760260152
+# current error = 1.9290545793473
+# current error = 1.9239723395266
+# current error = 1.920276082797
+# current error = 1.9173974577887
+# current error = 1.9150453724801
+# current error = 1.9130573877534
+# current error = 1.9113367111018
+# current error = 1.9098224368133
+# current error = 1.9084742154854
+# current error = 1.9072638302944
+# current error = 1.9061704505059
+# current error = 1.9051779320845
+# current error = 1.9042732952466
+# current error = 1.9034457325709
+# current error = 1.9026862079011
+# current error = 1.9019870407041
+# current error = 1.9013416411457
+# current error = 1.9007443565513
+# current error = 1.9001903193907
+# current error = 1.8996752691465
+# current error = 1.8991954543667
+# current error = 1.8987476146852
+# current error = 1.8983288156589
+# current error = 1.8979364475319
+# current error = 1.897568176731
+# current error = 1.8972218965409
+# StochasticGradient: you have reached the maximum number of iterations
+2,10,0.1,-3,30,0.72466666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.5066988727898
+# current error = 2.4252139101327
+# current error = 2.4027851133232
+# current error = 2.3899771543012
+# current error = 2.3819537758898
+# current error = 2.3735960410381
+# current error = 2.3678066021026
+# current error = 2.3615073541813
+# current error = 2.365838652742
+# current error = 2.3602307380768
+# current error = 2.354011825259
+# current error = 2.3506191972951
+# current error = 2.356787289629
+# current error = 2.3585832775131
+# current error = 2.357805453794
+# current error = 2.355153002538
+# current error = 2.346449487009
+# current error = 2.3473329956819
+# current error = 2.3391335686856
+# current error = 2.3387703575008
+# current error = 2.3342128286278
+# current error = 2.3345733514893
+# current error = 2.3379835358181
+# current error = 2.3353311245336
+# current error = 2.3363161403112
+# current error = 2.3333423292223
+# current error = 2.3298360701107
+# current error = 2.3269286316215
+# current error = 2.3264461777805
+# current error = 2.3223133413721
+# StochasticGradient: you have reached the maximum number of iterations
+1,80,0.1,-3,30,0.84466666666667
+# StochasticGradient: training
+# current error = 2.1867392292642
+# current error = 1.9459057451845
+# current error = 1.9213175254253
+# current error = 1.9110882225117
+# current error = 1.9052637520718
+# current error = 1.9013341126931
+# current error = 1.8984369358502
+# current error = 1.8962027720784
+# current error = 1.8944316204219
+# current error = 1.8929980731003
+# current error = 1.8918173556215
+# current error = 1.8908303255012
+# current error = 1.8899956097055
+# current error = 1.8892835191579
+# current error = 1.8886721453298
+# current error = 1.8881445976759
+# current error = 1.8876870897686
+# current error = 1.8872874419871
+# current error = 1.8869346635022
+# current error = 1.8866183971712
+# current error = 1.8863287922816
+# current error = 1.8860567306461
+# current error = 1.8857949833498
+# current error = 1.8855408429958
+# current error = 1.8852991682443
+# current error = 1.8850813110322
+# current error = 1.8848952809599
+# current error = 1.8847368964174
+# current error = 1.8845948813994
+# current error = 1.8844603598894
+# StochasticGradient: you have reached the maximum number of iterations
+2,20,0.1,-3,30,0.69733333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.107000910989
+# current error = 1.915125133732
+# current error = 1.897167694263
+# current error = 1.889736752924
+# current error = 1.8851703899986
+# current error = 1.8821368180288
+# current error = 1.880013945616
+# current error = 1.8784137552846
+# current error = 1.877158993654
+# current error = 1.8761885350933
+# current error = 1.8754289718708
+# current error = 1.8747941747527
+# current error = 1.8742419644986
+# current error = 1.8736098579694
+# current error = 1.8729639178554
+# current error = 1.8724107911847
+# current error = 1.8720101511382
+# current error = 1.8716676483628
+# current error = 1.8714293288757
+# current error = 1.8711598286884
+# current error = 1.8708946366208
+# current error = 1.8707119553964
+# current error = 1.8706629592891
+# current error = 1.8707217515704
+# current error = 1.8709296077611
+# current error = 1.8711774556384
+# current error = 1.8713268342552
+# current error = 1.871209596054
+# current error = 1.8705979290555
+# current error = 1.8699670979313
+# StochasticGradient: you have reached the maximum number of iterations
+2,40,0.1,-3,30,0.71733333333334
+# StochasticGradient: training
+# current error = 2.5381523727135
+# current error = 2.4526795612172
+# current error = 2.4255674653739
+# current error = 2.3986336994304
+# current error = 2.3721942678928
+# current error = 2.3660602513652
+# current error = 2.3583230805818
+# current error = 2.3500331501004
+# current error = 2.3402830744292
+# current error = 2.3380406652354
+# current error = 2.3357722515738
+# current error = 2.3298692100259
+# current error = 2.3265752748517
+# current error = 2.3248179822924
+# current error = 2.325683843908
+# current error = 2.324016538578
+# current error = 2.3236276504404
+# current error = 2.320287604308
+# current error = 2.3169235494433
+# current error = 2.3163950668634
+# current error = 2.3161062773426
+# current error = 2.3148094956986
+# current error = 2.315354676564
+# current error = 2.3218387885368
+# current error = 2.321296558753
+# current error = 2.3176056767399
+# current error = 2.3152526642669
+# current error = 2.3151345560118
+# current error = 2.3132895310019
+# current error = 2.3127725903921
+# StochasticGradient: you have reached the maximum number of iterations
+1,100,0.1,-3,30,0.84666666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.2696944873249
+# current error = 1.7034551151465
+# current error = 1.5831919199687
+# current error = 1.5229673708271
+# current error = 1.4852087005344
+# current error = 1.4589638464233
+# current error = 1.4395541054863
+# current error = 1.4245517143305
+# current error = 1.4125661005199
+# current error = 1.4027429056512
+# current error = 1.3945265495537
+# current error = 1.3875389425393
+# current error = 1.381513333803
+# current error = 1.3762558745911
+# current error = 1.3716221097202
+# current error = 1.3675021878274
+# current error = 1.3638109239477
+# current error = 1.3604811802565
+# current error = 1.3574593569626
+# current error = 1.3547021603365
+# current error = 1.3521741486938
+# current error = 1.3498460724232
+# current error = 1.3476936387965
+# current error = 1.3456963823162
+# current error = 1.3438369846288
+# current error = 1.3421006117204
+# current error = 1.3404745437932
+# current error = 1.3389477911248
+# current error = 1.3375107489221
+# current error = 1.3361550506412
+# StochasticGradient: you have reached the maximum number of iterations
+4,10,0.1,-3,30,0.528
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.0260801084817
+# current error = 1.527634311639
+# current error = 1.4468573814722
+# current error = 1.4052588228689
+# current error = 1.379013307374
+# current error = 1.3606829255538
+# current error = 1.3470368130332
+# current error = 1.3364512273769
+# current error = 1.3279836152662
+# current error = 1.3210399865722
+# current error = 1.3152258898071
+# current error = 1.3102700711633
+# current error = 1.3059809007426
+# current error = 1.3022200681228
+# current error = 1.2988857134213
+# current error = 1.2959014414968
+# current error = 1.2932090088035
+# current error = 1.2907632785223
+# current error = 1.288528658174
+# current error = 1.2864767518515
+# current error = 1.284584540177
+# current error = 1.2828331158581
+# current error = 1.2812067889901
+# current error = 1.2796923251487
+# current error = 1.2782784978341
+# current error = 1.2769556704705
+# current error = 1.2757154489238
+# current error = 1.2745504957629
+# current error = 1.2734543565319
+# current error = 1.2724212935606
+# StochasticGradient: you have reached the maximum number of iterations
+4,20,0.1,-3,30,0.51066666666667
+# StochasticGradient: training
+# current error = 2.1101966407722
+# current error = 1.919827241526
+# current error = 1.900583328592
+# current error = 1.8912981886217
+# current error = 1.8852103156025
+# current error = 1.8820649134013
+# current error = 1.8791711079469
+# current error = 1.8765124220298
+# current error = 1.8744423195451
+# current error = 1.8724131287383
+# current error = 1.8719143836667
+# current error = 1.8708592111448
+# current error = 1.8702878907541
+# current error = 1.8691959968517
+# current error = 1.8678130844892
+# current error = 1.8669588146883
+# current error = 1.8662133359137
+# current error = 1.8661920255628
+# current error = 1.8658460904788
+# current error = 1.865048640455
+# current error = 1.8646274979836
+# current error = 1.8639847474029
+# current error = 1.8638045596369
+# current error = 1.8633642702313
+# current error = 1.8632927190064
+# current error = 1.8631697186242
+# current error = 1.863294981463
+# current error = 1.8635355547678
+# current error = 1.8634902036603
+# current error = 1.8636191446677
+# StochasticGradient: you have reached the maximum number of iterations
+2,80,0.1,-3,30,0.70266666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 1.8762064679599
+# current error = 1.4325311962527
+# current error = 1.3591231574097
+# current error = 1.3219214792294
+# current error = 1.2992408620511
+# current error = 1.2838793676048
+# current error = 1.2726710339497
+# current error = 1.2641302144908
+# current error = 1.2574147213669
+# current error = 1.2519866253454
+# current error = 1.2474921376452
+# current error = 1.2436909223665
+# current error = 1.2404150840444
+# current error = 1.2375454870158
+# current error = 1.2349979403709
+# current error = 1.2327151910944
+# current error = 1.2306588626853
+# current error = 1.228800616713
+# current error = 1.2271159387078
+# current error = 1.2255825580962
+# current error = 1.2241809544604
+# current error = 1.2228945133315
+# current error = 1.2217092540003
+# current error = 1.2206134113981
+# current error = 1.2195968171555
+# current error = 1.218650734928
+# current error = 1.2177677034368
+# current error = 1.2169411075249
+# current error = 1.2161652893309
+# current error = 1.2154352895418
+# StochasticGradient: you have reached the maximum number of iterations
+4,40,0.1,-3,30,0.47533333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.1233575954236
+# current error = 1.921725696098
+# current error = 1.9002558608491
+# current error = 1.8902025035104
+# current error = 1.8843550519359
+# current error = 1.880582085047
+# current error = 1.8778068646646
+# current error = 1.8756461107293
+# current error = 1.8736511098917
+# current error = 1.8718369229785
+# current error = 1.8706663407041
+# current error = 1.869433043518
+# current error = 1.8683810514034
+# current error = 1.8685056871807
+# current error = 1.8668951930296
+# current error = 1.8664507800898
+# current error = 1.8658551521321
+# current error = 1.8656565106311
+# current error = 1.864966268357
+# current error = 1.8648497412315
+# current error = 1.8641128936847
+# current error = 1.8642701333207
+# current error = 1.865158812869
+# current error = 1.8648084460844
+# current error = 1.8639839496832
+# current error = 1.8634164475777
+# current error = 1.8624767677387
+# current error = 1.8611913881804
+# current error = 1.8620824498876
+# current error = 1.8623015045671
+# StochasticGradient: you have reached the maximum number of iterations
+2,100,0.1,-3,30,0.712
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.4233714892452
+# current error = 1.578357457846
+# current error = 1.3475542746956
+# current error = 1.2342913575657
+# current error = 1.1629894059292
+# current error = 1.1129023044366
+# current error = 1.0755455113933
+# current error = 1.0465481142685
+# current error = 1.0233638571198
+# current error = 1.0043998071995
+# current error = 0.98860499074435
+# current error = 0.97525440358923
+# current error = 0.96382913126547
+# current error = 0.95394635427838
+# current error = 0.9453171164031
+# current error = 0.9377190536014
+# current error = 0.93097846037141
+# current error = 0.92495787459479
+# current error = 0.91954723949927
+# current error = 0.9146573877544
+# current error = 0.91021553502616
+# current error = 0.90616168329972
+# current error = 0.90244594508381
+# current error = 0.89902662572732
+# current error = 0.8958685301073
+# current error = 0.89294186134621
+# current error = 0.89022114234903
+# current error = 0.88768450800749
+# current error = 0.88531315618253
+# current error = 0.88309066631563
+# StochasticGradient: you have reached the maximum number of iterations
+8,10,0.1,-3,30,0.33133333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.2225081519262
+# current error = 1.2910520751685
+# current error = 1.1033550093884
+# current error = 1.0198347023487
+# current error = 0.97095695470387
+# current error = 0.93835317423838
+# current error = 0.91484760502462
+# current error = 0.8969976396314
+# current error = 0.88292302144675
+# current error = 0.87150723389574
+# current error = 0.8620451055946
+# current error = 0.85406506863812
+# current error = 0.84723505854426
+# current error = 0.84131245511584
+# current error = 0.83611621996981
+# current error = 0.83150954265895
+# current error = 0.82738774121073
+# current error = 0.8236696945747
+# current error = 0.82029171777744
+# current error = 0.81720304571571
+# current error = 0.81436292519249
+# current error = 0.81173811543468
+# current error = 0.80930130142145
+# current error = 0.80702983456397
+# current error = 0.80490471534366
+# current error = 0.8029099001759
+# current error = 0.80103175984717
+# current error = 0.79925859893003
+# current error = 0.79758030999624
+# current error = 0.7959881357681
+# StochasticGradient: you have reached the maximum number of iterations
+8,20,0.1,-3,30,0.28933333333333
+# StochasticGradient: training
+# current error = 1.8137495358431
+# current error = 1.3724159323794
+# current error = 1.3073063265413
+# current error = 1.2759898407127
+# current error = 1.257165956374
+# current error = 1.2444026909448
+# current error = 1.2350646470014
+# current error = 1.2278782256107
+# current error = 1.2221379262863
+# current error = 1.2174159912741
+# current error = 1.2134430798045
+# current error = 1.2100445690784
+# current error = 1.207100325367
+# current error = 1.2045219966872
+# current error = 1.2022421893573
+# current error = 1.2002088088048
+# current error = 1.1983812718144
+# current error = 1.196727691003
+# current error = 1.1952229266893
+# current error = 1.193846732707
+# current error = 1.1925829240375
+# current error = 1.1914181961773
+# current error = 1.1903416282845
+# current error = 1.1893440153553
+# current error = 1.1884175004695
+# current error = 1.1875553407256
+# current error = 1.1867513909273
+# current error = 1.1860002833429
+# current error = 1.1852971164111
+# current error = 1.1846375173929
+# StochasticGradient: you have reached the maximum number of iterations
+4,80,0.1,-3,30,0.46933333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.0105640980876
+# current error = 1.0957884929086
+# current error = 0.96588281685218
+# current error = 0.90645164579808
+# current error = 0.87076127400064
+# current error = 0.84665301228895
+# current error = 0.82895106142653
+# current error = 0.81512813262773
+# current error = 0.80390018647365
+# current error = 0.79455486998026
+# current error = 0.78662792462025
+# current error = 0.7797935611576
+# current error = 0.77382293512381
+# current error = 0.76855463211454
+# current error = 0.76387116308441
+# current error = 0.75968186749848
+# current error = 0.755912895218
+# current error = 0.75250240385482
+# current error = 0.74939866045828
+# current error = 0.74655837786902
+# current error = 0.74394570068157
+# current error = 0.74153084228552
+# current error = 0.73928906107854
+# current error = 0.73719968592724
+# current error = 0.73524537438273
+# current error = 0.73341150572706
+# current error = 0.73168572652385
+# current error = 0.73005734043827
+# current error = 0.72851720675132
+# current error = 0.72705735549412
+# StochasticGradient: you have reached the maximum number of iterations
+8,40,0.1,-3,30,0.272
+# StochasticGradient: training
+# current error = 1.8236575324142
+# current error = 1.3651129299457
+# current error = 1.2977424488977
+# current error = 1.2655970068259
+# current error = 1.2464810634897
+# current error = 1.2335832973433
+# current error = 1.2241902178591
+# current error = 1.2169943500757
+# current error = 1.2112704921152
+# current error = 1.2065868255124
+# current error = 1.202671612175
+# current error = 1.1993411683571
+# current error = 1.1964641796519
+# current error = 1.1939450376768
+# current error = 1.191713937419
+# current error = 1.1897196108252
+# current error = 1.1879236626519
+# current error = 1.1862961492576
+# current error = 1.1848132598992
+# current error = 1.183455404517
+# current error = 1.1822064724686
+# current error = 1.1810530195359
+# current error = 1.1799837876028
+# current error = 1.1789893349534
+# current error = 1.178061611523
+# current error = 1.1771936178737
+# current error = 1.1763792504037
+# current error = 1.175612969003
+# current error = 1.1748899231989
+# current error = 1.1742057365587
+# StochasticGradient: you have reached the maximum number of iterations
+4,100,0.1,-3,30,0.46066666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.8667294525686
+# current error = 2.152266997043
+# current error = 1.6914557828492
+# current error = 1.4256600140886
+# current error = 1.2550118775244
+# current error = 1.1393943277901
+# current error = 1.0573792859339
+# current error = 0.99631433191878
+# current error = 0.94891370663919
+# current error = 0.91089166320903
+# current error = 0.87960409328124
+# current error = 0.85333516540834
+# current error = 0.83091943592049
+# current error = 0.81153388648818
+# current error = 0.7945781285734
+# current error = 0.77960239882589
+# current error = 0.7662622374518
+# current error = 0.75428903880493
+# current error = 0.74347010714555
+# current error = 0.73363475746487
+# current error = 0.72464458827858
+# current error = 0.71638610488032
+# current error = 0.70876557761284
+# current error = 0.70170489086687
+# current error = 0.6951385506494
+# current error = 0.6890112383693
+# current error = 0.68327598340032
+# current error = 0.6778926132468
+# current error = 0.67282659940194
+# current error = 0.66804812173651
+# StochasticGradient: you have reached the maximum number of iterations
+16,10,0.1,-3,30,0.196
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.7621658345922
+# current error = 1.6379953598139
+# current error = 1.1860797453637
+# current error = 0.98542201908449
+# current error = 0.87158481566976
+# current error = 0.79717529055843
+# current error = 0.74452492275181
+# current error = 0.70546526491465
+# current error = 0.67542443978452
+# current error = 0.65161290788642
+# current error = 0.6322573875848
+# current error = 0.61619214404568
+# current error = 0.60262566998402
+# current error = 0.59100338363016
+# current error = 0.58092540712344
+# current error = 0.572096161251
+# current error = 0.56429202583821
+# current error = 0.55734054106892
+# current error = 0.55110631598699
+# current error = 0.5454815998648
+# current error = 0.54037929059052
+# current error = 0.53572831001241
+# current error = 0.53146992644256
+# current error = 0.52755525225229
+# current error = 0.52394314204429
+# current error = 0.52059884664246
+# current error = 0.51749267000935
+# current error = 0.51459919764786
+# current error = 0.51189645286071
+# current error = 0.50936538448568
+# StochasticGradient: you have reached the maximum number of iterations
+16,20,0.1,-3,30,0.17266666666667
+# StochasticGradient: training
+# current error = 1.8776549849314
+# current error = 1.0103832028554
+# current error = 0.9012358603712
+# current error = 0.85202592300727
+# current error = 0.82137872510461
+# current error = 0.79940537677235
+# current error = 0.78252080522785
+# current error = 0.76903242115345
+# current error = 0.75798395915978
+# current error = 0.74875813955689
+# current error = 0.74092266851786
+# current error = 0.73416433110183
+# current error = 0.72825459802232
+# current error = 0.72302553457049
+# current error = 0.71835209663993
+# current error = 0.71413973966178
+# current error = 0.71031600831181
+# current error = 0.70682420268736
+# current error = 0.70361918826333
+# current error = 0.70066443070863
+# current error = 0.69792961403287
+# current error = 0.69538928474958
+# current error = 0.69302173728913
+# current error = 0.69080839308773
+# current error = 0.68873313065502
+# current error = 0.68678201442565
+# current error = 0.6849429171985
+# current error = 0.68320536337637
+# current error = 0.68156008416078
+# current error = 0.67999903730821
+# StochasticGradient: you have reached the maximum number of iterations
+8,80,0.1,-3,30,0.25666666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.6726371103531
+# current error = 1.2681087222952
+# current error = 0.88741869278622
+# current error = 0.7519182762288
+# current error = 0.67988213693541
+# current error = 0.63403457745821
+# current error = 0.60184846649751
+# current error = 0.57792421475155
+# current error = 0.55943279367271
+# current error = 0.54470062764067
+# current error = 0.5326696511805
+# current error = 0.52264121363313
+# current error = 0.51413717872222
+# current error = 0.50682013601139
+# current error = 0.50044515689131
+# current error = 0.49483034493493
+# current error = 0.48983778013797
+# current error = 0.48536092123281
+# current error = 0.48131624318458
+# current error = 0.47763729449661
+# current error = 0.4742705318016
+# current error = 0.47117235475015
+# current error = 0.46830686611727
+# current error = 0.46564428900802
+# current error = 0.46315967640614
+# current error = 0.46083196603415
+# current error = 0.45864333128821
+# current error = 0.456578525068
+# current error = 0.45462453060453
+# current error = 0.45277016228072
+# StochasticGradient: you have reached the maximum number of iterations
+16,40,0.1,-3,30,0.178
+# StochasticGradient: training
+# current error = 1.8492813350439
+# current error = 0.99512020134347
+# current error = 0.89081246497625
+# current error = 0.84198357205914
+# current error = 0.81074459186435
+# current error = 0.7882964548659
+# current error = 0.77123701952716
+# current error = 0.75774830872256
+# current error = 0.74673217035939
+# current error = 0.73751882160585
+# current error = 0.72967179854813
+# current error = 0.72288077291129
+# current error = 0.71691742085513
+# current error = 0.7116160467128
+# current error = 0.70686016060562
+# current error = 0.70256779897436
+# current error = 0.69867625827164
+# current error = 0.69513176006358
+# current error = 0.69188652180824
+# current error = 0.68889897011364
+# current error = 0.68613408453085
+# current error = 0.68356283929336
+# current error = 0.68116106284997
+# current error = 0.67890880581261
+# current error = 0.676789337711
+# current error = 0.6747888327297
+# current error = 0.67289555780216
+# current error = 0.6710995690773
+# current error = 0.66939242462639
+# current error = 0.66776676574498
+# StochasticGradient: you have reached the maximum number of iterations
+8,100,0.1,-3,30,0.28133333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.0827612460434
+# current error = 2.7158727998676
+# current error = 2.4091500294383
+# current error = 2.1079802822669
+# current error = 1.835954417133
+# current error = 1.610733798266
+# current error = 1.432251009714
+# current error = 1.2926508418206
+# current error = 1.1830607367042
+# current error = 1.0961294165299
+# current error = 1.0260109731741
+# current error = 0.96840298451848
+# current error = 0.92024722847286
+# current error = 0.87936807811606
+# current error = 0.8441942792316
+# current error = 0.81356976650373
+# current error = 0.78662848593133
+# current error = 0.7627108675546
+# current error = 0.74130715467832
+# current error = 0.72201801862098
+# current error = 0.70452673343699
+# current error = 0.68857918448503
+# current error = 0.67396922315857
+# current error = 0.66052781473658
+# current error = 0.64811494056093
+# current error = 0.6366135096888
+# current error = 0.62592458981646
+# current error = 0.61596392338578
+# current error = 0.60665911806585
+# current error = 0.59794746956405
+# StochasticGradient: you have reached the maximum number of iterations
+32,10,0.1,-3,30,0.12266666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.0772939763336
+# current error = 2.5652745573719
+# current error = 1.928693719151
+# current error = 1.4540788859431
+# current error = 1.1422280793847
+# current error = 0.94911074179988
+# current error = 0.82584525748544
+# current error = 0.74027342941952
+# current error = 0.67671486446964
+# current error = 0.62720839801671
+# current error = 0.58736163426546
+# current error = 0.55455843733705
+# current error = 0.52711527520647
+# current error = 0.50386522065164
+# current error = 0.48395247892361
+# current error = 0.46672811997658
+# current error = 0.45169150214378
+# current error = 0.43845258754457
+# current error = 0.426704936625
+# current error = 0.41620588412727
+# current error = 0.40676158500452
+# current error = 0.39821583884316
+# current error = 0.39044166312028
+# current error = 0.3833349658483
+# current error = 0.37680963285625
+# current error = 0.37079398884752
+# current error = 0.36522776163443
+# current error = 0.36006004584572
+# current error = 0.35524744914569
+# current error = 0.35075281260472
+# StochasticGradient: you have reached the maximum number of iterations
+32,20,0.1,-3,30,0.092
+# StochasticGradient: training
+# current error = 2.6231318576357
+# current error = 1.0643728642722
+# current error = 0.74240080704029
+# current error = 0.6398365664006
+# current error = 0.58631061957597
+# current error = 0.55295386882285
+# current error = 0.52994978376998
+# current error = 0.51296825991926
+# current error = 0.49981184858549
+# current error = 0.48924737205057
+# current error = 0.4805250929288
+# current error = 0.4731602088377
+# current error = 0.46682399000577
+# current error = 0.46128535542994
+# current error = 0.45637689317046
+# current error = 0.45197440523833
+# current error = 0.4479837864234
+# current error = 0.44433234894078
+# current error = 0.44096325302764
+# current error = 0.43783143730836
+# current error = 0.43490079933844
+# current error = 0.43214228735741
+# current error = 0.42953212516791
+# current error = 0.42705100699246
+# current error = 0.4246830091174
+# current error = 0.42241502453919
+# current error = 0.42023623337141
+# current error = 0.41813769387196
+# current error = 0.41611215213498
+# current error = 0.41415368913556
+# StochasticGradient: you have reached the maximum number of iterations
+16,80,0.1,-3,30,0.142
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.0797013201578
+# current error = 2.4711651680799
+# current error = 1.5022524399626
+# current error = 0.97073876473082
+# current error = 0.74919186952233
+# current error = 0.63155295154539
+# current error = 0.55688027064365
+# current error = 0.50480787225022
+# current error = 0.46635855943678
+# current error = 0.43684648733375
+# current error = 0.41348870548994
+# current error = 0.39450949966397
+# current error = 0.37873915126284
+# current error = 0.3653871414212
+# current error = 0.35390425883651
+# current error = 0.34389869930259
+# current error = 0.33508397855615
+# current error = 0.32724579826526
+# current error = 0.32022038155749
+# current error = 0.31388017695705
+# current error = 0.30812414517232
+# current error = 0.30287100577784
+# current error = 0.29805445328401
+# current error = 0.29361973365718
+# current error = 0.28952123427685
+# current error = 0.2857204919326
+# current error = 0.28218487915525
+# current error = 0.27888637210845
+# current error = 0.27580089576515
+# current error = 0.27290751586681
+# StochasticGradient: you have reached the maximum number of iterations
+32,40,0.1,-3,30,0.075333333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 2.5685967849469
+# current error = 1.0083142416367
+# current error = 0.70970747460889
+# current error = 0.61818717298735
+# current error = 0.57057479406173
+# current error = 0.54041291146352
+# current error = 0.51923585181217
+# current error = 0.50336017122105
+# current error = 0.49089353279305
+# current error = 0.48075748856393
+# current error = 0.47229004027643
+# current error = 0.4650613569418
+# current error = 0.45877934813095
+# current error = 0.4532385164561
+# current error = 0.44828969193741
+# current error = 0.44382216575317
+# current error = 0.43975193039671
+# current error = 0.43601436850263
+# current error = 0.43255883865533
+# current error = 0.42934523411045
+# current error = 0.42634127398797
+# current error = 0.42352059367162
+# current error = 0.42086145243783
+# current error = 0.41834557426194
+# current error = 0.41595755274645
+# current error = 0.41368420160897
+# current error = 0.41151422988594
+# current error = 0.40943782627713
+# current error = 0.4074465024027
+# current error = 0.40553283427737
+# StochasticGradient: you have reached the maximum number of iterations
+16,100,0.1,-3,30,0.14733333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.1979918456279
+# current error = 3.0645612419521
+# current error = 2.9129327328889
+# current error = 2.7194805314761
+# current error = 2.520221161379
+# current error = 2.333936872017
+# current error = 2.1619269020754
+# current error = 2.0025519985556
+# current error = 1.8554724268568
+# current error = 1.7216090092084
+# current error = 1.6016357359755
+# current error = 1.4952524401507
+# current error = 1.4014551148886
+# current error = 1.3189236689291
+# current error = 1.2462602476652
+# current error = 1.1821309587172
+# current error = 1.1253389303312
+# current error = 1.0748452323134
+# current error = 1.0297619066404
+# current error = 0.98933502330304
+# current error = 0.95292621720639
+# current error = 0.91999557145068
+# current error = 0.89008639993511
+# current error = 0.86281206085201
+# current error = 0.8378445859431
+# current error = 0.81490504231382
+# current error = 0.79375542807472
+# current error = 0.7741919441642
+# current error = 0.75603939971216
+# current error = 0.73914658231607
+# StochasticGradient: you have reached the maximum number of iterations
+64,10,0.1,-3,30,0.14333333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.1810691705392
+# current error = 3.0859242356444
+# current error = 2.9048074792454
+# current error = 2.5564827909506
+# current error = 2.1898107355576
+# current error = 1.8655046597637
+# current error = 1.5839454827705
+# current error = 1.3546148578851
+# current error = 1.1789342352534
+# current error = 1.0465124299499
+# current error = 0.9447764629559
+# current error = 0.86433708835376
+# current error = 0.79896903710041
+# current error = 0.74457934819959
+# current error = 0.69842541926816
+# current error = 0.65862746982983
+# current error = 0.62387077059745
+# current error = 0.59321860622382
+# current error = 0.56598889603044
+# current error = 0.54166937540365
+# current error = 0.51985926776714
+# current error = 0.50023113727478
+# current error = 0.48250810454769
+# current error = 0.46645138053797
+# current error = 0.45185364414652
+# current error = 0.43853499474091
+# current error = 0.42633985731811
+# current error = 0.41513409124447
+# current error = 0.40480227172152
+# current error = 0.39524510701384
+# StochasticGradient: you have reached the maximum number of iterations
+64,20,0.1,-3,30,0.078666666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.1040589761145
+# current error = 2.4486808611787
+# current error = 1.2231687749547
+# current error = 0.7238469509368
+# current error = 0.55549119335492
+# current error = 0.47106237011076
+# current error = 0.41984124128196
+# current error = 0.38543657959633
+# current error = 0.36054246181754
+# current error = 0.34148647963414
+# current error = 0.32627956022628
+# current error = 0.31376275173714
+# current error = 0.30321900908108
+# current error = 0.29417947582838
+# current error = 0.28632083552647
+# current error = 0.27941023862095
+# current error = 0.27327450473821
+# current error = 0.26778167688114
+# current error = 0.26282906725296
+# current error = 0.25833549541139
+# current error = 0.25423591060705
+# current error = 0.25047729946565
+# current error = 0.24701603001535
+# current error = 0.24381568584213
+# current error = 0.24084577579386
+# current error = 0.23808032761316
+# current error = 0.23549708467489
+# current error = 0.23307693493205
+# current error = 0.23080334374415
+# current error = 0.22866181084404
+# StochasticGradient: you have reached the maximum number of iterations
+32,80,0.1,-3,30,0.080666666666667
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.1827117295468
+# current error = 3.124530890031
+# current error = 2.9868557511019
+# current error = 2.5411831005677
+# current error = 1.9557247544104
+# current error = 1.4816403097876
+# current error = 1.1383440345105
+# current error = 0.91786111088257
+# current error = 0.7771859862826
+# current error = 0.68027372220346
+# current error = 0.60853056579791
+# current error = 0.55272472027151
+# current error = 0.50798955342311
+# current error = 0.47149840963647
+# current error = 0.44136303742824
+# current error = 0.41617790561244
+# current error = 0.39486587279469
+# current error = 0.3766076451832
+# current error = 0.36078336526481
+# current error = 0.34692260352291
+# current error = 0.33466580698431
+# current error = 0.32373565405436
+# current error = 0.31391582525776
+# current error = 0.30503533108588
+# current error = 0.29695721471718
+# current error = 0.28957048758957
+# current error = 0.28278422874206
+# current error = 0.2765231543287
+# current error = 0.27072438794012
+# current error = 0.26533497350972
+# StochasticGradient: you have reached the maximum number of iterations
+64,40,0.1,-3,30,0.069333333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.107268894645
+# current error = 2.4599874784804
+# current error = 1.1906743181882
+# current error = 0.69020659212734
+# current error = 0.52841813007343
+# current error = 0.44768702500221
+# current error = 0.39885163921723
+# current error = 0.36637398874289
+# current error = 0.34315089373511
+# current error = 0.3255354747295
+# current error = 0.31157186951093
+# current error = 0.30014385248591
+# current error = 0.29056809750234
+# current error = 0.2823986193805
+# current error = 0.27532772084838
+# current error = 0.26913368347282
+# current error = 0.26365128996078
+# current error = 0.25875474949698
+# current error = 0.25434646921723
+# current error = 0.25034963148052
+# current error = 0.24670290754513
+# current error = 0.24335678323614
+# current error = 0.24027081708321
+# current error = 0.23741155409135
+# current error = 0.23475103063167
+# current error = 0.2322659228885
+# current error = 0.22993633832388
+# current error = 0.22774540538228
+# current error = 0.22567872093355
+# current error = 0.22372366651857
+# StochasticGradient: you have reached the maximum number of iterations
+32,100,0.1,-3,30,0.078
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.2750779332703
+# current error = 3.1821095344023
+# current error = 3.146164393655
+# current error = 3.1221337390291
+# current error = 3.0926873470385
+# current error = 3.0480912541016
+# current error = 2.9774199669501
+# current error = 2.8737124583134
+# current error = 2.7451346919562
+# current error = 2.6097235423966
+# current error = 2.4791037327696
+# current error = 2.357710656999
+# current error = 2.2462037448941
+# current error = 2.1439285107879
+# current error = 2.0500589330792
+# current error = 1.9638135979074
+# current error = 1.8844269623547
+# current error = 1.8111645163347
+# current error = 1.7433593351513
+# current error = 1.6804267017309
+# current error = 1.6218605140441
+# current error = 1.5672235640093
+# current error = 1.5161373590715
+# current error = 1.4682728823857
+# current error = 1.4233425386088
+# current error = 1.3810932924145
+# current error = 1.3413010634046
+# current error = 1.3037662437714
+# current error = 1.2683102752325
+# current error = 1.2347729974641
+# StochasticGradient: you have reached the maximum number of iterations
+128,10,0.1,-3,30,0.23133333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.2190827755965
+# current error = 3.1656352133527
+# current error = 3.1493179612323
+# current error = 3.126606282913
+# current error = 3.0838018017495
+# current error = 2.9940973463501
+# current error = 2.8288787528713
+# current error = 2.6082366841456
+# current error = 2.3828236695905
+# current error = 2.1756370248587
+# current error = 1.990575474193
+# current error = 1.8259692995896
+# current error = 1.679581043241
+# current error = 1.5494401153767
+# current error = 1.4338574499643
+# current error = 1.3312656356458
+# current error = 1.2401354032635
+# current error = 1.1590259642982
+# current error = 1.0866699431804
+# current error = 1.022001553253
+# current error = 0.96412119579548
+# current error = 0.91223908455189
+# current error = 0.86563656460526
+# current error = 0.82365441893421
+# current error = 0.78569680621764
+# current error = 0.75123719880992
+# current error = 0.71981960394256
+# current error = 0.6910546762539
+# current error = 0.66461275435643
+# current error = 0.64021594082943
+# StochasticGradient: you have reached the maximum number of iterations
+128,20,0.1,-3,30,0.095333333333333
+# StochasticGradient: training
+# current error = 3.1861457850618
+# current error = 3.1465699284043
+# current error = 3.0518047478965
+# current error = 2.6124571762331
+# current error = 1.8448505058737
+# current error = 1.2075050952838
+# current error = 0.83772166491303
+# current error = 0.65097239736176
+# current error = 0.54225847200396
+# current error = 0.46948937580922
+# current error = 0.41706185775589
+# current error = 0.3779432361423
+# current error = 0.34801944246597
+# current error = 0.32450900221832
+# current error = 0.30553282555404
+# current error = 0.28984339196202
+# current error = 0.27660611605336
+# current error = 0.26524903918647
+# current error = 0.25536868233849
+# current error = 0.24667226309782
+# current error = 0.23894190282404
+# current error = 0.23201166777284
+# current error = 0.22575266199131
+# current error = 0.22006301566394
+# current error = 0.21486102444886
+# current error = 0.21008030001301
+# current error = 0.20566631037005
+# current error = 0.20157373399376
+# current error = 0.19776465137394
+# current error = 0.1942070292476
+# StochasticGradient: you have reached the maximum number of iterations
+64,80,0.1,-3,30,0.06
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.2117536493223
+# current error = 3.1725889780747
+# current error = 3.1634230473492
+# current error = 3.1509324364899
+# current error = 3.1272233655017
+# current error = 3.0718892608544
+# current error = 2.9284136964252
+# current error = 2.6545247072537
+# current error = 2.3280596979139
+# current error = 2.0137149079375
+# current error = 1.7347636961126
+# current error = 1.4960015547305
+# current error = 1.2971346206932
+# current error = 1.1346741372403
+# current error = 1.0031102708197
+# current error = 0.89663880686893
+# current error = 0.81007807042811
+# current error = 0.73904459432854
+# current error = 0.67995377616354
+# current error = 0.63001102978225
+# current error = 0.58713809785981
+# current error = 0.54983852970317
+# current error = 0.51705139108301
+# current error = 0.48802270463977
+# current error = 0.46220245048668
+# current error = 0.43916725078981
+# current error = 0.41856825079354
+# current error = 0.40010165729919
+# current error = 0.38349625099278
+# current error = 0.36851025367805
+# StochasticGradient: you have reached the maximum number of iterations
+128,40,0.1,-3,30,0.074666666666667
+# StochasticGradient: training
+# current error = 3.193069556954
+# current error = 3.1583536405473
+# current error = 3.0966238385893
+# current error = 2.7708622426271
+# current error = 2.0164175212992
+# current error = 1.2756717582146
+# current error = 0.83333661540072
+# current error = 0.62503441397634
+# current error = 0.51217247312127
+# current error = 0.44045971714042
+# current error = 0.39075546082118
+# current error = 0.3545793929311
+# current error = 0.3272307066213
+# current error = 0.30583188241519
+# current error = 0.28858076568844
+# current error = 0.27432684425207
+# current error = 0.26231137273061
+# current error = 0.25201465327853
+# current error = 0.24306822273548
+# current error = 0.23520323745534
+# current error = 0.22821897767161
+# current error = 0.22196222134173
+# current error = 0.21631403504977
+# current error = 0.21118057285951
+# current error = 0.2064867863173
+# current error = 0.20217192699036
+# current error = 0.19818619715281
+# current error = 0.19448856816079
+# current error = 0.19104472505885
+# current error = 0.18782583762695
+# StochasticGradient: you have reached the maximum number of iterations
+64,100,0.1,-3,30,0.062
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.2104034308978
+# current error = 3.181748355292
+# current error = 3.178553328855
+# current error = 3.1766128057487
+# current error = 3.1749810156392
+# current error = 3.1721081227454
+# current error = 3.1619285558504
+# current error = 3.1117285107671
+# current error = 2.9014289472216
+# current error = 2.5449006925461
+# current error = 2.1412220353357
+# current error = 1.756962419918
+# current error = 1.4244398126262
+# current error = 1.1552868850456
+# current error = 0.94955134939791
+# current error = 0.79660241532793
+# current error = 0.6830693790956
+# current error = 0.59770623718495
+# current error = 0.53189081775981
+# current error = 0.47961105212599
+# current error = 0.43700370150523
+# current error = 0.40164339145827
+# current error = 0.37195087509956
+# current error = 0.34681408101427
+# current error = 0.32538355753951
+# current error = 0.30697801775083
+# current error = 0.29104356132517
+# current error = 0.27713205544357
+# current error = 0.2648837533331
+# current error = 0.25401151444611
+# StochasticGradient: you have reached the maximum number of iterations
+128,80,0.1,-3,30,0.082666666666667
+# StochasticGradient: training
+# current error = 3.2840010784998
+# current error = 3.2842129977608
+# current error = 3.2842111925089
+# current error = 3.2842100543031
+# current error = 3.2842092763895
+# current error = 3.2842087138098
+# current error = 3.2842082895577
+# current error = 3.2842079591139
+# current error = 3.2842076950331
+# current error = 3.2842074795187
+# current error = 3.284207300549
+# current error = 3.2842071497245
+# current error = 3.2842070210079
+# current error = 3.2842069099532
+# current error = 3.2842068132176
+# current error = 3.2842067282412
+# current error = 3.2842066530323
+# current error = 3.2842065860191
+# current error = 3.284206525945
+# current error = 3.2842064717945
+# current error = 3.2842064227379
+# current error = 3.2842063780911
+# current error = 3.2842063372855
+# current error = 3.2842062998444
+# current error = 3.2842062653653
+# current error = 3.2842062335064
+# current error = 3.2842062039753
+# current error = 3.2842061765208
+# current error = 3.2842061509255
+# current error = 3.2842061270007
+# StochasticGradient: you have reached the maximum number of iterations
+256,10,0.1,-3,30,0.96133333333333
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.2853025635875
+# current error = 3.285548080283
+# current error = 3.2855460998375
+# current error = 3.2855438878885
+# current error = 3.2855406790605
+# current error = 3.2855343926469
+# current error = 3.2855135556945
+# current error = 3.2757688581053
+# current error = 3.1883985345699
+# current error = 3.1757699538899
+# current error = 3.1726220676756
+# current error = 3.169732498025
+# current error = 3.1665278468737
+# current error = 3.1625614061151
+# current error = 3.1572528025764
+# current error = 3.1496947606889
+# current error = 3.1383768258873
+# current error = 3.1207203093717
+# current error = 3.0923352409282
+# current error = 3.0461425537399
+# current error = 2.9738731037546
+# current error = 2.8748385873441
+# current error = 2.7599796965247
+# current error = 2.6387668025017
+# current error = 2.5164562099003
+# current error = 2.3968829428679
+# current error = 2.2825850589871
+# current error = 2.1749521485238
+# current error = 2.0744855550168
+# current error = 1.9810876732839
+# StochasticGradient: you have reached the maximum number of iterations
+256,20,0.1,-3,30,0.80933333333334
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+Torch 7.0  Copyright (C) 2001-2011 Idiap, NEC Labs, NYU
+# StochasticGradient: training
+# current error = 3.2045523343236
+# current error = 3.1779129716782
+# current error = 3.1768204932286
+# current error = 3.1763664637271
+# current error = 3.1794675569175
+# current error = 3.1803932801019
+# current error = 3.1760968185818
+# current error = 3.1479468599032
+# current error = 3.032027258847
+# current error = 2.75777271957
+# current error = 2.3752909225678
+# current error = 1.9597409342779
+# current error = 1.5720521739311
+# current error = 1.246232286762
+# current error = 0.9961395106157
+# current error = 0.81494927228714
+# current error = 0.68416359022892
+# current error = 0.58821888613283
+# current error = 0.51631493772706
+# current error = 0.46086082615189
+# current error = 0.41679488360893
+# current error = 0.38093045797266
+# current error = 0.35125298454691
+# current error = 0.32640968801022
+# current error = 0.30541801569256
+# current error = 0.28752193880408
+# current error = 0.27212475965311
+# current error = 0.25875321010806
+# current error = 0.24703267375784
+# current error = 0.23666738903469
+# StochasticGradient: you have reached the maximum number of iterations
+128,100,0.1,-3,30,0.059333333333333
+# StochasticGradient: training
+# current error = 3.2838966092827
+# current error = 3.2841991147474
+# current error = 3.2841895640595
+# current error = 3.2841283372851
+# current error = 3.2228110219744
+# current error = 3.1780109468267
+# current error = 3.1749424136315
+# current error = 3.1734251468074
+# current error = 3.172249440561
+# current error = 3.1709880034843
+# current error = 3.169390012397
+# current error = 3.1669678755307
+# current error = 3.1632503446044
+# current error = 3.1574100314008
+# current error = 3.1483485112343
+# current error = 3.1343408466339
+# current error = 3.1114312151073
+# current error = 3.0689847378944
+# current error = 2.993950499332
+# current error = 2.8761110214202
+# current error = 2.7286629344307
+# current error = 2.5662485309579
+# current error = 2.3946588068104
+# current error = 2.2216972082958
+# current error = 2.0550049167956
+# current error = 1.900218402137
+# current error = 1.7600073868463
+# current error = 1.6342980512873
+# current error = 1.5214482367818
+# current error = 1.4194675291591
+# StochasticGradient: you have reached the maximum number of iterations
+256,40,0.1,-3,30,0.25066666666667
+# StochasticGradient: training
+# current error = 3.2827513944891
+# current error = 3.283560913336
+# current error = 3.2835544235107
+# current error = 3.2835395601586
+# current error = 3.2737046179908
+# current error = 3.1929250895091
+# current error = 3.1877201413904
+# current error = 3.1916925558175
+# current error = 3.2003809260844
+# current error = 3.2141753498269
+# current error = 3.2317184461996
+# current error = 3.2546206465677
+# current error = 3.2609434405499
+# current error = 3.2325410798369
+# current error = 3.2545177017833
+# current error = 3.2678459995426
+# current error = 3.2541344143203
+# current error = 3.2835382017533
+# current error = 3.2348584169139
+# current error = 3.2539219806979
+# current error = 3.2835536506305
+# current error = 3.2835459498499
+# current error = 3.2582550346634
+# current error = 3.253283711748
+# current error = 3.2835567808358
+# current error = 3.2835550505561
+# current error = 3.2835508565793
+# current error = 3.283524792093
+# current error = 3.2773096887617
+# current error = 3.2490871422565
+# StochasticGradient: you have reached the maximum number of iterations
+256,80,0.1,-3,30,0.91733333333333
+# StochasticGradient: training
+# current error = 3.2828090305624
+# current error = 3.2833197816205
+# current error = 3.2099334807388
+# current error = 3.1947493704212
+# current error = 3.2043770213836
+# current error = 3.2098996591503
+# current error = 3.2261598806126
+# current error = 3.2363833968471
+# current error = 3.2465422769024
+# current error = 3.2834692709315
+# current error = 3.2328901161052
+# current error = 3.23495556151
+# current error = 3.2757770154413
+# current error = 3.2477170540233
+# current error = 3.2832277621349
+# current error = 3.2353549088073
+# current error = 3.2834275471006
+# current error = 3.2770396847098
+# current error = 3.2339065028329
+# current error = 3.2834341917223
+# current error = 3.2834294712746
+# current error = 3.2833869132812
+# current error = 3.2428903085163
+# current error = 3.2834365697353
+# current error = 3.2834352220336
+# current error = 3.2834323014894
+# current error = 3.2834216933403
+# current error = 3.263047643242
+# current error = 3.2834283858371
+# current error = 3.2480505309797
+# StochasticGradient: you have reached the maximum number of iterations
+256,100,0.1,-3,30,0.96133333333333

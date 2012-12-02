@@ -65,14 +65,14 @@ function runRBF {
 function runAntiRBF {
 	rm ../result/AntiRBF.csv ../result/AntiRBF_modified.csv
 	mkdir ../result/AntiRBF
-	for k in 1 2 4 8 16 32 64 128 256 512 617
+	for k in 16 32 64 128 256 512 617
 	do
-		for HU in 10 20 40 80 100
+		for HU in 20 40 80 100 120
 		do
-			for lr in 0.1 0.01 0.001 0.005 0.0005
+			for lr in 0.005 0.0005 0.0001
 			do
-				echo "torch main.lua $trainsize 4 $k $HU $lr -3 30 >> ../result/AntiRBF.csv" &
-				torch main.lua $trainsize 4 $k $HU $lr -3 30 >> ../result/AntiRBF.csv &
+				echo "torch main.lua $trainsize 4 $k $HU $lr -3 30 > ../result/AntiRBF/"$k"_"$HU"_"$lr"_-3_30 &
+				torch main.lua $trainsize 4 $k $HU $lr -3 30 > ../result/AntiRBF/"$k"_"$HU"_"$lr"_-3_30 &
 			
 				while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
 				do
@@ -82,17 +82,17 @@ function runAntiRBF {
 			done
 		done
 	done
-	sed '/Torch/d' ../result/AntiRBF.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/AntiRBF_modified.csv
+	find ../result/AntiRBF | xargs grep ',' | cat > ../result/AntiRBF_modified.csv
 }
 
 function runHRBF {
 	rm ../result/HRBF.csv ../result/HRBF_modified.csv
 	mkdir ../result/HRBF
-	for k in 1 2 4 8 16 32 64 128 256 512 617
+	for k in 16 32 64 128 256 512 617
 	do
 		for HU in 10 20 40 80 100
 		do
-			for lr in 0.1 0.01 0.001 0.005 0.0005
+			for lr in 0.1 0.01 0.001
 			do
 				echo 'torch main.lua' $trainsize 5 $k $HU $lr -3 30 > ../result/HRBF/"$k"_"$HU"_"$lr"_-3_30 &
 				#torch main.lua $trainsize 5 $k $HU $lr -3 30 > ../result/HRBF/"$k"_"$HU"_"$lr"_-3_30 &
@@ -108,7 +108,15 @@ function runHRBF {
 	find ../result/HRBF | xargs grep ',' | cat > ../result/HRBF_modified.csv
 }
 
-#runTwoLinReg
-#runRBF
-#runAntiRBF
-runHRBF
+if [[ $3 -eq 2 ]]; then
+	runTwoLinReg
+fi
+if [[ $3 -eq 3 ]]; then
+	runRBF
+fi
+if [[ $3 -eq 4 ]]; then
+	runAntiRBF
+fi
+if [[ $3 -eq 5 ]]; then
+	runHRBF
+fi

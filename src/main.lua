@@ -21,7 +21,6 @@ local function Q4()
 	local outputs = 26
 	
 	local trainset, testset = isolet:getIsoletDatasets(train_size,test_size)
-	local trainset2, testset = isolet:getIsoletDatasets(1000,test_size)
 	whitening:whitenDatasets(trainset, testset, k)
 	
 	local err = 1
@@ -39,7 +38,7 @@ local function Q4()
 	end
 	if (testFunc == 5) then
 		local lambda = 0.5
-		local interOutputs = 100
+		local interOutputs = 13
 		local interHU = 80
 		local W2 = -2
 		err = testMod(trainHRBF(trainset, trainset:features(), lambda, HU, interOutputs, interHU, outputs, initW, W2, learningRate, epoch), testset)
@@ -47,5 +46,10 @@ local function Q4()
 	print(k .. "," .. HU .. "," .. learningRate .. "," .. initW .. "," .. epoch .. "," .. err)
 end
 
-Q4()
+--Q4()
 --Q36()
+
+ mlp=nn.Parallel(2,1);     -- iterate over dimension 2 of input
+ mlp:add(nn.Linear(10,3)); -- apply to first slice
+ mlp:add(nn.Linear(10,2))  -- apply to first second slice
+ print(mlp:forward(torch.randn(10,2)))

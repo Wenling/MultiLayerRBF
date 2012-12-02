@@ -65,24 +65,28 @@ end
 -- f_i(x) = sum(a_i exp(-b (x - c_i)^2))
 function modHRBF(inputs, lambda,  HU, interOutputs, interHU, outputs, W1, W2)
 	local rbf = nn.Sequential()
-	local c = nn.Parallel(1, 2)
-
-	local rbfL1 = nn.Sequential()
-	rbfL1:add(nn.RBF(inputs * lambda, HU))
-	rbfL1:add(nn.MulPos(HU, W1))
-	rbfL1:add(nn.NegExp())
-	rbfL1:add(nn.Linear(HU, interOutputs))
-	c:add(rbfL1)
-	
-	local L1 = nn.Sequential()
-	L1:add(nn.Copy(inputs - inputs * lambda, inputs - inputs / lambda))
-	c:add(L1)
-	
+	local c = nn.Parallel(1, 1)
+	local t = nn.Sequential()
+	t:add(nn.Linear(inputs, outputs))
+	c:add(t)
 	rbf:add(c)
-	rbf:add(nn.RBF(interOutputs + inputs - inputs * lambda, interHU))
-	rbf:add(nn.MulPos(interHU, W2))
-	rbf:add(nn.NegExp())
-	rbf:add(nn.Linear(interHU, outputs))
-	rbf:add(nn.LogSoftMax())
+
+--	local rbfL1 = nn.Sequential()
+--	rbfL1:add(nn.RBF(inputs * lambda, HU))
+--	rbfL1:add(nn.MulPos(HU, W1))
+--	rbfL1:add(nn.NegExp())
+--	rbfL1:add(nn.Linear(HU, interOutputs))
+--	c:add(rbfL1)
+--	
+--	local L1 = nn.Sequential()
+--	L1:add(nn.Add(inputs - inputs * lambda, 0))
+--	c:add(L1)
+--	
+--	rbf:add(c)
+--	rbf:add(nn.RBF(interOutputs + inputs - inputs * lambda, interHU))
+--	rbf:add(nn.MulPos(interHU, W2))
+--	rbf:add(nn.NegExp())
+--	rbf:add(nn.Linear(interHU, outputs))
+--	rbf:add(nn.LogSoftMax())
 	return rbf
 end

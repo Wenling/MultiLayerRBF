@@ -11,6 +11,7 @@ function RBF:__init(inputSize, outputSize)
 	self.inputSize = inputSize
 	self.outputSize = outputSize
 	self:reset()
+	print (self.inputSize .." ".. self.outputSize)
 end
 
 function RBF:reset(stdv)

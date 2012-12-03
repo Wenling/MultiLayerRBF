@@ -63,14 +63,16 @@ function runAntiRBF {
 					#!/bin/bash
 					 
 					#PBS -l nodes=1:ppn=4,walltime=00:30:00
-					#PBS -N /home/ws779/ML/MultiLayerRBF/result/AntiRBF/arbf-$k-$h-$w-$lr
+					#PBS -N arbf-$k-$h-$w-$lr
 					#PBS -M ws779@nyu.edu
+					#PBS -o $root/result/AntiRBF/arbf-$k-$h-$w-$lr
+					#PBS -e $root/result/AntiRBF/arbf-$k-$h-$w-$lr.e
 					#PBS -m abe
 					 
 					module load torch/intel/7.0
-					cd /home/ws779/ML/MultiLayerRBF/src
+					cd $root/src
 					torch main.lua $trainsize 4 $k $h $lr -3 30
-					cat /home/ws779/ML/MultiLayerRBF/result/AntiRBF/arbf-$k-$h-$w-$lr.log >> antirbf.log
+					cat $root/result/AntiRBF/arbf-$k-$h-$w-$lr >> antirbf.log
 					
 					exit 0;
 					

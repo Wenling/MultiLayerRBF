@@ -33,13 +33,13 @@ function runTwoLinReg {
 }
 
 function runRBF {
-	for k in 1 2 4 8 16 32 64 128 256 512 617
+	for k in 32 56 64 80 100
 	do
-		for h in 10 20 40 60 80 100 120
+		for h in 40 60 80 100 120
 		do
-			for w in -5 -4 -3 -2.5 -2
+			for w in -3 -2.5 -2
 			do
-				for lr in 0.2 0.11 0.1 0.09 0.101
+				for lr in 0.11 0.1 0.09 0.101
 				do
 					cat > ../script/pbs.script.$k.$h.$w.$lr <<- EOF
 					#!/bin/bash

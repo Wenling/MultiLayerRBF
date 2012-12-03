@@ -65,7 +65,7 @@ end
 -- f_i(x) = sum(a_i exp(-b (x - c_i)^2))
 function modHRBF(inputs, lambda,  HU, interOutputs, interHU, outputs, W1, W2)
 	local rbf = nn.Sequential()
-	local c = nn.Parallel(1, 1)
+	local c = nn.Parallel(1, 2)
 	local t = nn.Sequential()
 	t:add(nn.Linear(inputs, outputs))
 	c:add(t)

@@ -85,3 +85,13 @@ function trainHRBF(dataset, inputs, lambda, HU, interOutputs, interHU, outputs, 
 	end
 	return mlp
 end
+
+function trainMulLinReg(dataset, inputs, HU, outputs, learningRate, epoch)
+	local mlp = modMulLinReg(inputs, HU, outputs)
+	local criterion = nn.ClassNLLCriterion()
+	local trainer = nn.StochasticGradient(mlp, criterion)
+	trainer.learningRate = learningRate
+	trainer.maxIteration = epoch
+	trainer:train(dataset)
+	return mlp
+end

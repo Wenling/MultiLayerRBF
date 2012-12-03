@@ -43,6 +43,9 @@ local function Q4()
 		local W2 = -2
 		err = testMod(trainHRBF(trainset, trainset:features(), lambda, HU, interOutputs, interHU, outputs, initW, W2, learningRate, epoch), testset)
 	end
+	if (testFunc == 6) then
+		err = testMod(trainMulLinReg(trainset, trainset:features(), HU, 26, learningRate, epoch), testset)
+	end
 	print(k .. "," .. HU .. "," .. learningRate .. "," .. initW .. "," .. epoch .. "," .. err)
 end
 

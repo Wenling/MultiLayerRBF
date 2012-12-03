@@ -139,6 +139,41 @@ function runHRBF {
 	done
 }
 
+function runLinRBF {
+	mkdir $root/result/LinRBF
+	for k in 64 128 256 400 512 617
+	do
+		for h in 40 80 100 120
+		do
+			for lr in 0.01 0.001 0.005 0.0005 0.0001
+			do
+				for w in -6 -5 -4 -3
+				do
+				  cat > ../script/pbs.script.$k.$h.$w.$lr <<- EOF
+					#!/bin/bash
+					 
+					#PBS -l nodes=1:ppn=4,walltime=00:30:00
+					#PBS -N linrbf-$k-$h-$w-$lr
+					#PBS -M ws779@nyu.edu
+					#PBS -o $root/result/LinRBF/linrbf-$k-$h-$w-$lr
+					#PBS -e $root/result/LinRBF/linrbf-$k-$h-$w-$lr.e
+					#PBS -m abe
+					 
+					module load torch/intel/7.0
+					cd $root/src
+					torch main.lua $trainsize 6 $k $h $lr $w 30
+					cat $root/result/LinRBF/arbf-$k-$h-$w-$lr >> $root/result/LinRBF/linrbf.csv
+					
+					exit 0;
+					
+					EOF
+					qsub ../script/pbs.script.$k.$h.$w.$lr
+				done
+			done
+		done
+	done
+}
+
 if [[ $2 -eq 1 ]]; then
 	runLogReg
 fi
@@ -153,4 +188,7 @@ if [[ $2 -eq 4 ]]; then
 fi
 if [[ $2 -eq 5 ]]; then
 	runHRBF
+fi
+if [[ $2 -eq 6 ]]; then
+	runLinRBF
 fi

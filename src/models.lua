@@ -66,27 +66,35 @@ end
 function modHRBF(inputs, lambda,  HU, interOutputs, interHU, outputs, W1, W2)
 	local rbf = nn.Sequential()
 	local c = nn.Parallel(1, 2)
-	local t = nn.Sequential()
-	t:add(nn.Linear(inputs, outputs))
-	c:add(t)
-	rbf:add(c)
 
---	local rbfL1 = nn.Sequential()
---	rbfL1:add(nn.RBF(inputs * lambda, HU))
---	rbfL1:add(nn.MulPos(HU, W1))
---	rbfL1:add(nn.NegExp())
---	rbfL1:add(nn.Linear(HU, interOutputs))
---	c:add(rbfL1)
---	
---	local L1 = nn.Sequential()
---	L1:add(nn.Add(inputs - inputs * lambda, 0))
---	c:add(L1)
---	
---	rbf:add(c)
---	rbf:add(nn.RBF(interOutputs + inputs - inputs * lambda, interHU))
---	rbf:add(nn.MulPos(interHU, W2))
---	rbf:add(nn.NegExp())
---	rbf:add(nn.Linear(interHU, outputs))
---	rbf:add(nn.LogSoftMax())
+	local rbfL1 = nn.Sequential()
+	rbfL1:add(nn.RBF(inputs * lambda, HU))
+	rbfL1:add(nn.MulPos(HU, W1))
+	rbfL1:add(nn.NegExp())
+	rbfL1:add(nn.Linear(HU, interOutputs))
+	c:add(rbfL1)
+	
+	local L1 = nn.Sequential()
+	L1:add(nn.Add(inputs - inputs * lambda, 0))
+	c:add(L1)
+	
+	rbf:add(c)
+	rbf:add(nn.RBF(interOutputs + inputs - inputs * lambda, interHU))
+	rbf:add(nn.MulPos(interHU, W2))
+	rbf:add(nn.NegExp())
+	rbf:add(nn.Linear(interHU, outputs))
+	rbf:add(nn.LogSoftMax())
 	return rbf
+end
+
+-- A two-layer neural network
+-- inputs: dimension of inputs, HU: hidden unit, outputs: dimention of outputs
+function modMulLinReg(inputs, HU, outputs)
+	local twoLinReg = nn.Sequential()
+
+	twoLinReg:add(nn.Linear(inputs, HU))
+	twoLinReg:add(nn.Tanh())
+	twoLinReg:add(nn.RBF(HU, outputs))
+	twoLinReg:add(nn.LogSoftMax())
+	return twoLinReg
 end

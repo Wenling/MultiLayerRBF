@@ -6,7 +6,7 @@ then
 else
 	trainsize=$1
 fi
-local root=/home/ws779/ML/MultiLayerRBF
+root=/home/ws779/ML/MultiLayerRBF
 
 function runLogReg {
 	rm ../result/logReg.csv ../result/logReg_modified.csv
@@ -33,7 +33,6 @@ function runTwoLinReg {
 }
 
 function runRBF {
-	mkdir ../result/RBF
 	for k in 1 2 4 8 16 32 64 128 256 512 617
 	do
 		for h in 10 20 40 60 80 100 120

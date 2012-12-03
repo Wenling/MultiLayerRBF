@@ -28,7 +28,7 @@ local function Q4()
 		err = testMod(trainLogReg(trainset, trainset:features(), outputs), testset)
 	end
 	if (testFunc == 2) then
-		err = testMod(trainTwoLinReg(trainset, trainset:features(), HU, 26, learningRate), testset)
+		err = testMod(trainTwoLinReg(trainset, trainset:features(), HU, 26, learningRate, epoch), testset)
 	end
 	if (testFunc == 3) then
 		err = testMod(trainRBF(trainset, trainset:features(), HU, 26, initW, learningRate, epoch), testset)

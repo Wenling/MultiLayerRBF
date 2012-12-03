@@ -7,11 +7,12 @@ function trainLogReg(dataset, inputs, outputs)
 	return mlp
 end
 
-function trainTwoLinReg(dataset, inputs, HU, outputs, learningRate)
+function trainTwoLinReg(dataset, inputs, HU, outputs, learningRate, epoch)
 	local mlp = modTwoLinReg(inputs, HU, outputs)
 	local criterion = nn.ClassNLLCriterion()
 	local trainer = nn.StochasticGradient(mlp, criterion)
 	trainer.learningRate = learningRate
+	trainer.maxIteration = epoch
 	trainer:train(dataset)
 	return mlp
 end

@@ -30,13 +30,15 @@ function runTwoLinReg {
 	do
 		for HU in 10 20 40 80 100
 		do
-			echo "torch main.lua $trainsize 2 $k $HU 0.01 -3 10 >> ../result/TwoLinReg.csv" &
-			torch main.lua $trainsize 2 $k $HU 0.01 -3 10 >> ../result/TwoLinReg.csv &
-			
-			while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
-			do
-				echo "sleeping"
-				sleep $sleeptime;
+			for epoch in 5 10 15 20; do
+				echo "torch main.lua $trainsize 2 $k $HU 0.01 -3 $epoch >> ../result/TwoLinReg.csv" &
+				torch main.lua $trainsize 2 $k $HU 0.01 -3 $epoch >> ../result/TwoLinReg.csv &
+				
+				while [[ $(jobs -p | wc -l) -ge $NR_PROC ]]
+				do
+					echo "sleeping"
+					sleep $sleeptime;
+				done
 			done
 		done
 	done

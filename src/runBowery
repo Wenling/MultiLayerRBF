@@ -6,7 +6,7 @@ then
 else
 	trainsize=$1
 fi
-NR_PROC=4
+local root=/home/ws779/ML/MultiLayerRBF
 
 function runLogReg {
 	rm ../result/logReg.csv ../result/logReg_modified.csv
@@ -33,21 +33,40 @@ function runTwoLinReg {
 }
 
 function runRBF {
-	rm ../result/RBF.csv ../result/RBF_modified.csv
-	for k in 1 2 4 8 16 32 64 128 256
+	mkdir ../result/RBF
+	for k in 1 2 4 8 16 32 64 128 256 512 617
 	do
-		for HU in 10 20 40 80 100
+		for h in 10 20 40 60 80 100 120
 		do
-			echo "torch main.lua $trainsize 3 $k $HU 0.1 -3 30 >> ../result/RBF.csv" &
-			torch main.lua $trainsize 3 $k $HU 0.1 -3 30 >> ../result/RBF.csv &
-			
+			for w in -5 -4 -3 -2.5 -2
+				do
+					cat > ../script/pbs.script.$k.$h.$w.$lr <<- EOF
+					#!/bin/bash
+					 
+					#PBS -l nodes=1:ppn=4,walltime=00:30:00
+					#PBS -N arbf-$k-$h-$w-$lr
+					#PBS -M ws779@nyu.edu
+					#PBS -o $root/result/RBF/rbf-$k-$h-$w-$lr
+					#PBS -e $root/result/RBF/rbf-$k-$h-$w-$lr.e
+					#PBS -m abe
+					 
+					module load torch/intel/7.0
+					cd $root/src
+					torch main.lua $trainsize 3 $k $h $lr -3 30
+					cat $root/result/RBF/rbf-$k-$h-$w-$lr >> $root/result/RBF/rbf.csv
+					
+					exit 0;
+					
+					EOF
+					qsub ../script/pbs.script.$k.$h.$w.$lr
+				done
+			done
 		done
 	done
-	sed '/Torch/d' ../result/RBF.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/RBF_modified.csv
+	sed '/Torch/d' ../result/rbf.csv | sed '/Unable/d' | sed '/#/d' | sort -t , -k 1,1n -k 2,2n > ../result/RBF_modified.csv
 }
 
 function runAntiRBF {
-	local root=/home/ws779/ML/MultiLayerRBF
 	rm -rf $root/result/AntiRBF
 	mkdir ../result/AntiRBF
 	mkdir ../script/
@@ -85,7 +104,6 @@ function runAntiRBF {
 }
 
 function runHRBF {
-	local root=/home/ws779/ML/MultiLayerRBF
 	mkdir $root/result/HRBF
 	for k in 1 2 4 8 16 32 64 128 256 512 617
 	do

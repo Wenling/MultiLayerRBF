@@ -72,11 +72,12 @@ function runAntiRBF {
 					module load torch/intel/7.0
 					cd $root/src
 					torch main.lua $trainsize 4 $k $h $lr -3 30
-					cat $root/result/AntiRBF/arbf-$k-$h-$w-$lr >> antirbf.log
+					cat $root/result/AntiRBF/arbf-$k-$h-$w-$lr >> $root/result/AntiRBF/antirbf.log
 					
 					exit 0;
 					
 					EOF
+					qsub ../script/pbs.script.$k.$h.$w.$lr
 				done
 			done
 		done

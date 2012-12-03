@@ -162,7 +162,7 @@ function runLinRBF {
 					module load torch/intel/7.0
 					cd $root/src
 					torch main.lua $trainsize 6 $k $h $lr $w 30
-					cat $root/result/LinRBF/arbf-$k-$h-$w-$lr >> $root/result/LinRBF/linrbf.csv
+					cat $root/result/LinRBF/linrbf-$k-$h-$w-$lr >> $root/result/LinRBF/linrbf.csv
 					
 					exit 0;
 					

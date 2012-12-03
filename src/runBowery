@@ -47,8 +47,10 @@ function runRBF {
 }
 
 function runAntiRBF {
-	rm ../result/AntiRBF.csv ../result/AntiRBF_modified.csv
+	local root=/home/ws779/ML/MultiLayerRBF
+	rm -rf $root/result/AntiRBF
 	mkdir ../result/AntiRBF
+	mkdir ../script/
 	for k in 16 32 64 128 256 512 617
 	do
 		for h in 40 80 100 120
@@ -57,10 +59,10 @@ function runAntiRBF {
 			do
 				for w in -5 -4 -3 -2
 				do
-					cat > pbs.script.$k.$h.$w.$lr < EOF
+					cat > ../script/pbs.script.$k.$h.$w.$lr <<- EOF
 					#!/bin/bash
 					 
-					#PBS -l nodes=1:ppn=1,walltime=00:30:00
+					#PBS -l nodes=1:ppn=4,walltime=00:30:00
 					#PBS -N /home/ws779/ML/MultiLayerRBF/result/AntiRBF/arbf-$k-$h-$w-$lr
 					#PBS -M ws779@nyu.edu
 					#PBS -m abe

@@ -54,7 +54,7 @@ local function Q4()
 	if (testFunc == 8) then
 		err = testMod(trainMulLinReg2(trainset, trainset:features(), HU, 26, learningRate, epoch, lambda), testset)
 	end
-	print(k .. "," .. HU .. "," .. learningRate .. "," .. initW .. "," .. epoch .. "," .. err)
+	print(k .. "," .. HU .. "," .. learningRate .. "," .. initW .. "," .. epoch .. "," ..lambda .. "," .. err)
 end
 
 Q4()

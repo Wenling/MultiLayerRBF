@@ -213,9 +213,9 @@ function runLinRBF2 {
 	mkdir $root/result/LinRBF2
 	for k in 250 256 260
 	do
-		for h in 80 100 120
+		for h in 120 140
 		do
-			for lr in 0.005 0.0005
+			for lr in 0.001 0.0005
 			do
 				for lambda in 0.1 0.01 0.001
 				do

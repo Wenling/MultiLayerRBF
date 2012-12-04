@@ -105,3 +105,13 @@ function trainMulLinReg(dataset, inputs, HU, outputs, learningRate, epoch)
 	trainer:train(dataset)
 	return mlp
 end
+
+function trainMulLinReg2(dataset, inputs, HU, outputs, learningRate, epoch, lambda)
+	local mlp = modMulLinReg(inputs, HU, outputs, lambda)
+	local criterion = nn.ClassNLLCriterion()
+	local trainer = nn.StochasticGradient(mlp, criterion)
+	trainer.learningRate = learningRate
+	trainer.maxIteration = epoch
+	trainer:train(dataset)
+	return mlp
+end

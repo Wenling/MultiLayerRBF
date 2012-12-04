@@ -110,3 +110,15 @@ function modMulLinReg(inputs, HU, outputs)
 	twoLinReg:add(nn.LogSoftMax())
 	return twoLinReg
 end
+
+-- A two-layer neural network
+-- inputs: dimension of inputs, HU: hidden unit, outputs: dimention of outputs
+function modMulLinReg2(inputs, HU, outputs, lambda)
+	local twoLinReg = nn.Sequential()
+
+	twoLinReg:add(nn.LinearReg(inputs, HU, lambda))
+	twoLinReg:add(nn.Tanh())
+	twoLinReg:add(nn.RBF(HU, outputs))
+	twoLinReg:add(nn.LogSoftMax())
+	return twoLinReg
+end

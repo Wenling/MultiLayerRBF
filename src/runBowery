@@ -187,11 +187,11 @@ function runLinReg {
 				  cat > ../script/pbs.script.$k.$h.$lr.$lambda <<- EOF
 					#!/bin/bash
 					 
-					#PBS -l nodes=1:ppn=4,walltime=00:30:00
+					#PBS -l nodes=1:ppn=1,walltime=00:30:00
 					#PBS -N linreg-$k-$h-$lr-$lambda
 					#PBS -M ws779@nyu.edu
-					#PBS -o $root/result/LinRBF/linreg-$k-$h-$lr-$lambda
-					#PBS -e $root/result/LinRBF/linreg-$k-$h-$lr-$lambda.e
+					#PBS -o $root/result/LinReg/linreg-$k-$h-$lr-$lambda
+					#PBS -e $root/result/LinReg/linreg-$k-$h-$lr-$lambda.e
 					#PBS -m abe
 					 
 					module load torch/intel/7.0

@@ -222,17 +222,17 @@ function runLinRBF2 {
 				  cat > ../script/pbs.script.$k.$h.$lr.$lambda <<- EOF
 					#!/bin/bash
 					 
-					#PBS -l nodes=1:ppn=4,walltime=00:30:00
-					#PBS -N linrbf2-$k-$h-$lr-$lambda
+					#PBS -l nodes=1:ppn=1,walltime=00:30:00
+					#PBS -N mod-$k-$h-$lr-$lambda
 					#PBS -M ws779@nyu.edu
-					#PBS -o $root/result/LinRBF2/linrbf2-$k-$h-$lr-$lambda
-					#PBS -e $root/result/LinRBF2/linrbf2-$k-$h-$lr-$lambda.e
+					#PBS -o $root/result/LinRBF2/mod-$k-$h-$lr-$lambda
+					#PBS -e $root/result/LinRBF2/mod-$k-$h-$lr-$lambda.e
 					#PBS -m abe
 					 
 					module load torch/intel/7.0
 					cd $root/src
 					torch main.lua $trainsize 8 $k $h $lr -5.5 35 $lambda
-					cat $root/result/LinRBF2/linrbf2-$k-$h-$lr-$lambda >> $root/result/LinRBF2/linrbf2.csv
+					cat $root/result/LinRBF2/mod-$k-$h-$lr-$lambda >> $root/result/LinRBF2/mod.csv
 					
 					exit 0;
 					

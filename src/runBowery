@@ -176,11 +176,11 @@ function runLinRBF {
 
 function runLinReg {
 	mkdir $root/result/LinReg
-	for k in 16 32 64 128 256 512 617
+	for k in 250 256 260
 	do
-		for h in 40 80 100 120
+		for h in 100 120 140
 		do
-			for lr in 0.001 0.0005 0.0001
+			for lr in 0.001 0.008 0.0005
 			do
 				for lambda in 0.1 0.01 0.001
 				do
@@ -219,25 +219,27 @@ function runLinRBF2 {
 			do
 				for lambda in 0.1 0.01 0.001
 				do
-				  cat > ../script/pbs.script.$k.$h.$lr.$lambda <<- EOF
-					#!/bin/bash
-					 
-					#PBS -l nodes=1:ppn=1,walltime=00:30:00
-					#PBS -N mod-$k-$h-$lr-$lambda
-					#PBS -M ws779@nyu.edu
-					#PBS -o $root/result/LinRBF2/mod-$k-$h-$lr-$lambda
-					#PBS -e $root/result/LinRBF2/mod-$k-$h-$lr-$lambda.e
-					#PBS -m abe
-					 
-					module load torch/intel/7.0
-					cd $root/src
-					torch main.lua $trainsize 8 $k $h $lr -5.5 35 $lambda
-					cat $root/result/LinRBF2/mod-$k-$h-$lr-$lambda >> $root/result/LinRBF2/mod.csv
-					
-					exit 0;
-					
-					EOF
-					qsub ../script/pbs.script.$k.$h.$lr.$lambda
+					do w in -5.5 -5
+					  	cat > ../script/pbs.script.$k.$h.$lr.$w.$lambda <<- EOF
+						#!/bin/bash
+						 
+						#PBS -l nodes=1:ppn=1,walltime=00:30:00
+						#PBS -N mod-$k-$h-$lr-$w-$lambda
+						#PBS -M ws779@nyu.edu
+						#PBS -o $root/result/LinRBF2/mod-$k-$h-$lr-$w-$lambda
+						#PBS -e $root/result/LinRBF2/mod-$k-$h-$lr-$w-$lambda.e
+						#PBS -m abe
+						 
+						module load torch/intel/7.0
+						cd $root/src
+						torch main.lua $trainsize 8 $k $h $lr $w 35 $lambda
+						cat $root/result/LinRBF2/mod-$k-$h-$lr-$w-$lambda >> $root/result/LinRBF2/mod.csv
+						
+						exit 0;
+						
+						EOF
+						qsub ../script/pbs.script.$k.$h.$lr.$w.$lambda
+					done
 				done
 			done
 		done

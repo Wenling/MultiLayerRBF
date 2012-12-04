@@ -7,6 +7,7 @@ dofile("RBF.lua")
 dofile("RBFA.lua")
 dofile("MulPos.lua")
 dofile("NegExp.lua")
+dofile("LinearReg.lua")
 dofile("models.lua")
 
 local function Q4()  
@@ -18,6 +19,7 @@ local function Q4()
 	local learningRate = tonumber(arg[5])
 	local initW = tonumber(arg[6])
 	local epoch = tonumber(arg[7])
+	local lambda = tonumber(arg[8])
 	local outputs = 26
 	
 	local trainset, testset = isolet:getIsoletDatasets(train_size,test_size)
@@ -45,6 +47,9 @@ local function Q4()
 	end
 	if (testFunc == 6) then
 		err = testMod(trainMulLinReg(trainset, trainset:features(), HU, 26, learningRate, epoch), testset)
+	end
+	if (testFunc == 7) then
+		err = testMod(trainTwoLinReg2(trainset, trainset:features(), HU, 26, learningRate, epoch, lambda), testset)
 	end
 	print(k .. "," .. HU .. "," .. learningRate .. "," .. initW .. "," .. epoch .. "," .. err)
 end

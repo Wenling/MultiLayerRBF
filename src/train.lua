@@ -17,6 +17,16 @@ function trainTwoLinReg(dataset, inputs, HU, outputs, learningRate, epoch)
 	return mlp
 end
 
+function trainTwoLinReg2(dataset, inputs, HU, outputs, learningRate, epoch, lambda)
+	local mlp = modTwoLinReg2(inputs, HU, outputs, lambda)
+	local criterion = nn.ClassNLLCriterion()
+	local trainer = nn.StochasticGradient(mlp, criterion)
+	trainer.learningRate = learningRate
+	trainer.maxIteration = epoch
+	trainer:train(dataset)
+	return mlp
+end
+
 function trainRBF(dataset, inputs, HU, outputs, W, learningRate, epoch)
 	local mlp = modRBF(inputs, HU, outputs, W)
 	local criterion = nn.ClassNLLCriterion()

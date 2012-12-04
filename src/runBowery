@@ -174,6 +174,38 @@ function runLinRBF {
 	done
 }
 
+function runLinReg {
+	mkdir $root/result/LinReg
+	for k in 16 32 64 128 256 512 617
+	do
+		for h in 10 20 40 80 100 120
+		do
+			for lr in 0.01 0.001 0.005 0.0005 0.0001
+			do
+			  cat > ../script/pbs.script.$k.$h.$w.$lr <<- EOF
+				#!/bin/bash
+				 
+				#PBS -l nodes=1:ppn=4,walltime=00:30:00
+				#PBS -N linreg-$k-$h-$w-$lr
+				#PBS -M ws779@nyu.edu
+				#PBS -o $root/result/LinRBF/linreg-$k-$h-$w-$lr
+				#PBS -e $root/result/LinRBF/linreg-$k-$h-$w-$lr.e
+				#PBS -m abe
+				 
+				module load torch/intel/7.0
+				cd $root/src
+				torch main.lua $trainsize 6 $k $h $lr $w 35
+				cat $root/result/LinReg/linreg-$k-$h-$w-$lr >> $root/result/LinReg/linreg.csv
+				
+				exit 0;
+				
+				EOF
+				qsub ../script/pbs.script.$k.$h.$w.$lr
+			done
+		done
+	done
+}
+
 if [[ $2 -eq 1 ]]; then
 	runLogReg
 fi
@@ -191,4 +223,7 @@ if [[ $2 -eq 5 ]]; then
 fi
 if [[ $2 -eq 6 ]]; then
 	runLinRBF
+fi
+if [[ $2 -eq 7 ]]; then
+	runLinReg
 fi

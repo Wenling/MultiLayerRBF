@@ -22,6 +22,18 @@ function modTwoLinReg(inputs, HU, outputs)
 	return twoLinReg
 end
 
+-- A two-layer neural network
+-- inputs: dimension of inputs, HU: hidden unit, outputs: dimention of outputs
+function modTwoLinReg2(inputs, HU, outputs, lambda)
+	local twoLinReg = nn.Sequential()
+
+	twoLinReg:add(nn.LinearReg(inputs, HU, lambda))
+	twoLinReg:add(nn.Tanh())
+	twoLinReg:add(nn.LinearReg(HU, outputs, lambda))
+	twoLinReg:add(nn.LogSoftMax())
+	return twoLinReg
+end
+
 -- RBF model
 -- inputs: dimension of inputs, HU: hidden unit, outputs: dimention of outputs, W: scalar
 -- f_i(x) = sum(a_i exp(-b (x - c_i)^2))
